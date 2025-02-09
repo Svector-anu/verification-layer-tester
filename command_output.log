@@ -1,0 +1,42 @@
+
+Command: shopt -s histappend
+Output:
+
+Exit Code: 0
+----
+Command: pwd
+Output:
+/Users/macbook/Desktop/verification-layer-tester
+Exit Code: 0
+----
+Command: npm run dev
+Output:
+npm ERR! Missing script: "dev"
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /Users/macbook/.npm/_logs/2025-02-09T13_40_55_372Z-debug-0.log
+Exit Code: 1
+----
+Command: npm install
+Output:
+
+up to date, audited 401 packages in 2s
+
+74 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+Exit Code: 0
+----
+Command: npm run dev
+Output:
+npm ERR! Missing script: "dev"
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /Users/macbook/.npm/_logs/2025-02-09T13_41_11_291Z-debug-0.log
+Exit Code: 1
+----
